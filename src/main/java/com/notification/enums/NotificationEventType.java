@@ -1,0 +1,52 @@
+package com.notification.enums;
+
+public enum NotificationEventType {
+
+    // Lead events
+    LEAD_CREATED,
+    LEAD_ASSIGNED,
+    LEAD_UPDATED,
+    LEAD_STATUS_CHANGED,
+    LEAD_REOPENED,
+    LEAD_DELETED,
+
+    // Proposal events
+    PROPOSAL_CREATED,
+    PROPOSAL_SENT,
+    PROPOSAL_APPROVED,
+    PROPOSAL_REJECTED,
+    PROPOSAL_CANCELLED,
+    PROPOSAL_VERSION_CREATED,
+
+    // Account / invoice events
+    INVOICE_CREATED,
+    INVOICE_UPDATED,
+    INVOICE_SENT,
+    PAYMENT_RECEIVED,
+    PAYMENT_FAILED,
+    CREDIT_NOTE_CREATED,
+    CREDIT_NOTE_APPROVED,
+    CREDIT_NOTE_REJECTED,
+
+    // Task events
+    TASK_CREATED,
+    TASK_ASSIGNED,
+    TASK_COMPLETED,
+    TASK_MISSED,
+    TASK_DUE_SOON,
+
+    // Communication events
+    EMAIL_SENT,
+    WHATSAPP_SENT,
+    CLIENT_REPLIED,
+    CALL_DONE,
+
+    // Document events
+    DOCUMENT_UPLOADED,
+    DOCUMENT_APPROVED,
+    DOCUMENT_REJECTED,
+
+    // General
+    REMARK_ADDED,
+    SYSTEM_NOTIFICATION
+}
