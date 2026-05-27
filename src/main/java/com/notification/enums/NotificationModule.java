@@ -5,6 +5,7 @@ public enum NotificationModule {
     LEAD,
     PROPOSAL,
     ACCOUNT,
+    COMPANY,
     TASK,
     USER,
     PAYMENT,

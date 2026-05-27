@@ -22,8 +22,6 @@ public enum NotificationEventType {
     INVOICE_CREATED,
     INVOICE_UPDATED,
     INVOICE_SENT,
-    PAYMENT_RECEIVED,
-    PAYMENT_FAILED,
     CREDIT_NOTE_CREATED,
     CREDIT_NOTE_APPROVED,
     CREDIT_NOTE_REJECTED,
@@ -34,6 +32,13 @@ public enum NotificationEventType {
     TASK_COMPLETED,
     TASK_MISSED,
     TASK_DUE_SOON,
+
+    PAYMENT_REGISTERED,
+    PAYMENT_APPROVED,
+    PAYMENT_REJECTED,
+    PAYMENT_RECEIVED,
+    PAYMENT_FAILED,
+
 
     // Communication events
     EMAIL_SENT,
